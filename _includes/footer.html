@@ -1,0 +1,53 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:{{ site.email }}">
+              <span><i class="fa fa-envelope-o"></i> </span>
+            </a>
+          </li>
+          {% if site.username.github %}
+            <li>
+              {% include icon-github.html username=site.username.github %}
+            </li>
+          {% endif %}
+          {% if site.username.twitter %}
+            <li>
+              {% include icon-twitter.html username=site.username.twitter %}
+            </li>
+          {% endif %}
+          {% if site.username.facebook %}
+            <li>
+              {% include icon-facebook.html username=site.username.facebook %}
+            </li>
+          {% endif %}
+          {% if site.username.instagram %}
+            <li>
+              {% include icon-instagram.html username=site.username.instagram %}
+            </li>
+          {% endif %}
+          <li>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+              <i class="fa fa-rss"></i>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2">
+
+      </div>
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

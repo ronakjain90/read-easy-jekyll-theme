@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        {% assign author = site.authors[post.author] %}
+        <div class="post-author">
+          <div class="flex-0">
+            <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40">
+          </div>
+          <div class="flex-1">
+            <span class="author">{{ author.display_name }}</span>
+            <p class="post-meta">
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            </p>
+          </div>
+        </div>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <div class="post-tags">
+          {% for tag in post.tags %}
+            <div class="tag">
+              <span><i class="fa fa-tag"></i> </span>
+              <span> {{ tag }}</span>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="clearfix"></div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

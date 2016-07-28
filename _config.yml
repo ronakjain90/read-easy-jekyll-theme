@@ -1,0 +1,55 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+
+title: ReadEasy
+email: info@ronakjain.yxz
+description: > # this means to ignore newlines until "baseurl:"
+  ReadEasy is a Modern Minimalistic Futuristic Jekyll theme that would create a long lasting impact on your users.
+
+baseurl: "/read-easy" # the subpath of your site, e.g. /blog
+
+# During Production
+url: "http://www.parseshuttingdown.com"
+
+# During Development
+#url: "http://127.0.0.1:4000"
+
+username:
+  twitter: ronakjain90
+  github:  ronakjain90
+  facebook: ironakjain
+  instagram: ronakjain90
+
+google_analytics: UA-XXXXXXX-X
+disqus_shortname: readeasy
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+# Better SEO
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+# Build settings
+markdown: kramdown
+
+authors:
+  ronak:
+    display_name: Ronak Jain
+    bio: Enterprenure, Geek, Tech Enthuiast, Freak, Traveller
+    gravatar: b4b47ba716148b3bb8cc62f6982d9c5a
+  lyanna:
+      display_name: Lyanna Stark
+      bio: Younger sister of Lord Eddard Stark
+      gravatar:
