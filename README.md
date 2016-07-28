@@ -2,17 +2,18 @@
 
 As the name suggest, an easily readable, nothing fancy `Medium` inspired theme based out of `Jekyll`
 
-#Feature
+#Features
 
-  * `Disqus` based comments support, can be turned off.
+  * `Disqus` based comments support (can be turned off).
   *  Responsive design.
   * `Multi Author` support with `Gravatar` based image lookup.
-  *  Comments can be turned on or off at post level.
+  *  Short author bio, read time, turing comments on/off at post level.
   *  `Google Analytics` on the go.
   *  SEO Friendly.
   *  Display of Social Media links made easy.
   *  [Open Graph](https://developers.facebook.com/docs/opengraph/) tags support for better social sharing.
-  *  Minimalistic theme with less than 7kb of CSS assets used.
+  *  Minimalistic theme with less than 8kb of CSS+JS assets used.
+  *  Pagination Support
   
 
 #Installation
@@ -22,9 +23,11 @@ As the name suggest, an easily readable, nothing fancy `Medium` inspired theme b
   * use `jekyll serve` to generate your static site
   * Copy the content of `_site` directory to host your site.
   
-# Liscense
+# License
   
   MIT
+  
+  Notice    
   
 > Copyright (C) 2016 Ronak Jain (ronakjain90@gmail.com)
   
