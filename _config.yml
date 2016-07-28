@@ -38,6 +38,9 @@ gems:
 # Better SEO
 permalink:   /:categories/:title/
 
+sass:
+    style: compressed
+
 # Amount of post to show on home page
 paginate: 5
 
