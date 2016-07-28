@@ -4,6 +4,7 @@ title:  Jekyll is AWESOME
 date:   2016-06-29 04:47:33 +0530
 author: ronak
 duration: 8
+description: Jekyll experience is being proven Awesome. Whats yours?
 comments: true
 categories: jekyll
 tags: jekyll

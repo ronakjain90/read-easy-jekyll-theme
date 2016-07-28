@@ -4,6 +4,7 @@ title:  Beautiful Places That You Ought To Visit Once
 date:   2016-05-15 04:47:33 +0530
 author: ronak
 duration: 2
+description: beautiful places in the world that you need to visit once in your life.
 comments: true
 categories: jekyll
 tags: nature places beautiful

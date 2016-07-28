@@ -4,6 +4,7 @@ title:  Installation
 date:   2016-05-14 21:47:33 +0530
 author: ronak
 duration: 7
+description: ReadEasy Installation steps, complete guide.
 comments: false
 categories: jekyll
 tags: jekyll

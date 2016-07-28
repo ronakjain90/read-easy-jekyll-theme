@@ -4,6 +4,7 @@ title:  "Moving ahead, these are top 6 alternatives"
 date:   2016-07-14 14:47:33 +0530
 author: lyanna
 duration: 9
+description: Moving along, moving ahead, find out these alternatives to life.
 comments: true
 categories: jekyll
 tags: life adventure happiness
