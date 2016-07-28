@@ -39,6 +39,7 @@ gems:
 permalink:   /:categories/:title/
 
 sass:
+    sass_dir: _sass
     style: compressed
 
 # Amount of post to show on home page
